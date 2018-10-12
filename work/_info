@@ -1,0 +1,309 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\4-1 Multiplexer
+vbinary_encoder42
+Z1 !s100 6eYjl]=4hG4X0XJ7W^2=]3
+Z2 I4eNgO=NmmjiF_Nk0=?Igo3
+Z3 VGljVTFeeSOFH;NgIZ42Ed3
+Z4 dC:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT
+Z5 w1539357152
+Z6 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v
+Z7 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v|
+Z10 o-work work -O0
+Z11 !s108 1539371916.773000
+Z12 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vbinary_encoder83
+Z13 !s100 G<a_=>?X472kmUcBMKjDN3
+Z14 Ie>1ndJ85]5lNjIal?cT]91
+Z15 V2e>dGC`j;XXY514W`nQim1
+R4
+Z16 w1539369787
+Z17 8C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\binary_encoder83.v
+Z18 FC:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\binary_encoder83.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\binary_encoder83.v|
+R10
+Z20 !s108 1539371917.278000
+Z21 !s107 C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\binary_encoder83.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vbinary_encoder83_tb
+Z22 !s100 [7O6^R]e_iROB6l=NShiI0
+Z23 IV0Z=A4@JWAUI@D>JKBYQ52
+Z24 VXQed_;>U]1WXI69mHScUI0
+R4
+Z25 w1539369905
+Z26 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83_tb.v
+Z27 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83_tb.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83_tb.v|
+R10
+Z29 !s108 1539371917.905000
+Z30 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vh3to8
+Z31 !s100 cFCoXYPL;dWo[DoAEL__Z1
+Z32 I4]QRfLVeN>:]haD9W35o92
+Z33 VozSUmle]2Ko<iSoF]hIG^0
+R4
+Z34 w1539360379
+Z35 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8.v
+Z36 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8.v
+L0 2
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8.v|
+R10
+Z38 !s108 1539371919.699000
+Z39 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vh3to8_tb
+Z40 !s100 hWh`i3lkDmX=MEebW2B;O3
+Z41 IOF5PINlzjz>37YE7OF[2H3
+Z42 V;@II=8Q`^a03<`mi]:<0H1
+R4
+Z43 w1539360577
+Z44 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8_tb.v
+Z45 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8_tb.v
+L0 1
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8_tb.v|
+R10
+Z47 !s108 1539371920.383000
+Z48 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vh6to64
+Z49 !s100 hAnd@njV7F9c@mDWHQ8]U3
+Z50 I>l=bMmhdLFRACKcP;XdP82
+Z51 V?CQEB]k1@a@9c>@g?m>WK2
+R4
+Z52 w1539368160
+Z53 8C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\h6to64.v
+Z54 FC:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\h6to64.v
+L0 2
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\h6to64.v|
+R10
+Z56 !s108 1539371921.023000
+Z57 !s107 C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\h6to64.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vh6to64_tb
+Z58 !s100 NSSk^GZNP0Q_=?3Cji_Ee1
+Z59 IlQm3iSCa4c6YOPfeA>kfB0
+Z60 VLc8jEh=M]zF]i`Hj>7cE21
+R4
+Z61 w1539364767
+Z62 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64_tb.v
+Z63 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64_tb.v
+L0 2
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64_tb.v|
+R10
+Z65 !s108 1539371921.670000
+Z66 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vif2to4
+Z67 !s100 LT1EZ=kSZRBn6n@g5;XA>3
+Z68 Io4RE8BUDaGNgN2YXVVCZF3
+Z69 VfWBL3<1k9zb8`6UTz_>fl1
+R4
+Z70 w1539358498
+Z71 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4.v
+Z72 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4.v
+L0 3
+R8
+r1
+31
+Z73 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4.v|
+R10
+Z74 !s108 1539371918.541000
+Z75 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vif2to4_tb
+Z76 !s100 z9:@dogo^CgN`VndS=3bC1
+Z77 IiQIN_oN=iST]ik]9m@TiP1
+Z78 VMIoL00NUj[<[hO2k:Jh>J0
+R4
+Z79 w1539359060
+Z80 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4_tb.v
+Z81 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4_tb.v
+L0 1
+R8
+r1
+31
+Z82 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4_tb.v|
+R10
+Z83 !s108 1539371919.213000
+Z84 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux41_case
+Z85 !s100 TeI=?>;=Ua@f>l?caDel91
+Z86 IEzVb5FP?QAB5NhazdeCcm1
+Z87 V6`odPbJKO]Zj??BoJ3[=J2
+R4
+Z88 w1539354253
+Z89 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/4-1 Multiplexer/mux41_case.v
+Z90 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/4-1 Multiplexer/mux41_case.v
+L0 1
+R8
+r1
+31
+Z91 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/4-1 Multiplexer/mux41_case.v|
+R10
+Z92 !s108 1539371914.854000
+Z93 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/4-1 Multiplexer/mux41_case.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux41_case_tb
+Z94 !s100 KB7<Y:0;HelDel_=;Y0bD0
+Z95 ID6j7aYi63UlVK=^cAP6NQ1
+Z96 Vb6aV]]00C;JMJ1l:E88R`0
+R4
+Z97 w1539354510
+Z98 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case_tb.v
+Z99 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case_tb.v
+L0 2
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case_tb.v|
+R10
+Z101 !s108 1539371915.612000
+Z102 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpriority_encoder83_case
+Z103 IcXa>[UCDdcge5:lkE<TY;3
+Z104 V8DVGBj:Ffhj6I]Q>1i74W0
+R4
+Z105 w1539369623
+Z106 8C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex.v
+Z107 FC:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex.v
+L0 1
+R8
+r1
+31
+R10
+Z108 !s100 8WAWe[HW4:G6f[Pi>gAIn3
+Z109 !s108 1539369749.541000
+Z110 !s107 C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex.v|
+Z111 !s90 -reportprogress|300|-work|work|C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpriority_encoder83_casex
+Z112 !s100 T>TBMgU7c[^Zl<DJ2=V`81
+Z113 If2C0Ch<nBKU8a>CFo6:bB2
+Z114 Vf3RKhgCBRV6YQ<E=P0Ud33
+R4
+Z115 w1539370216
+R106
+R107
+L0 1
+R8
+r1
+31
+R111
+R10
+Z116 !s108 1539371922.394000
+R110
+!i10b 1
+!s85 0
+!s101 -O0
+vpriority_encoder83_casex_tb
+Z117 !s100 D]HMf:lo0J[Tj=aafE_Al1
+Z118 I6=L>^HQYY^6IkoV:JSj:31
+Z119 V`fV5WNb1QgLl355H[DD]@2
+R4
+Z120 w1539369984
+Z121 8C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex_tb.v
+Z122 FC:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex_tb.v
+L0 1
+R8
+r1
+31
+Z123 !s90 -reportprogress|300|-work|work|C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex_tb.v|
+R10
+!i10b 1
+!s85 0
+Z124 !s108 1539371922.987000
+Z125 !s107 C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex_tb.v|
+!s101 -O0
+vpriority_encoder83_forloop
+!i10b 1
+!s100 9APGfl[d74GEiY_C7nK0M3
+IGIHM44S@e>zL0cdPL:<TE0
+VgOd@kYgba[Ma7A46Rz]oN1
+R4
+w1539371909
+8C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_forloop.v
+FC:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_forloop.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1539371923.527000
+!s107 C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_forloop.v|
+!s90 -reportprogress|300|-work|work|C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_forloop.v|
+!s101 -O0
+R10
+vproblem4_18
+Z126 !s100 =zgz`AJNbXin7T@@9PniF3
+Z127 IJT@MjVLiGZQ`Y?TVC36UF3
+Z128 VKL8G5Ac[5DB<3hGkB`]Kk3
+R4
+Z129 w1539352550
+Z130 8C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v
+Z131 FC:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v
+L0 1
+R8
+r1
+31
+Z132 !s90 -reportprogress|300|-work|work|C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v|
+R10
+Z133 !s108 1539371916.161000
+Z134 !s107 C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v|
+!i10b 1
+!s85 0
+!s101 -O0
