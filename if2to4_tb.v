@@ -1,25 +1,23 @@
+`timescale 1ps/1ps
 module if2to4_tb();
-reg En,w1,w0;
-reg [2:0]k;
-wire y3,y2,y1,y0;
+	reg En;
+	reg [1:0] w;
+	reg [2:0] k;
+	wire [3:0] y;
 
-initial begin 
-k = 0;
-#8 $stop;
-end
+	initial begin 
+		k = 0;
+		#8 $stop;
+	end
 
-always begin
-{En,w1,w0} = k;
-#1 k = k + 1;
-end
+	always begin
+		{En,w} = k;
+		#1 k = k + 1;
+	end
 
-if2to4 MUT(
-.En(En),
-.w1(w1),
-.w0(w0),
-.y3(y3),
-.y2(y2),
-.y1(y1),
-.y0(y0)
-);
+	if2to4 MUT(
+		.En(En),
+		.w(w),
+		.y(y)
+	);
 endmodule

@@ -1,0 +1,103 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// PROGRAM		"Quartus II 64-Bit"
+// VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+// CREATED		"Sun Oct 21 16:28:27 2018"
+
+module Priority Encoder 83(
+	d0,
+	d1,
+	d2,
+	d3,
+	d4,
+	d5,
+	d6,
+	d7,
+	p0,
+	p1,
+	p2,
+	p3,
+	p4,
+	p5,
+	p6,
+	p7
+);
+
+
+input wire	d0;
+input wire	d1;
+input wire	d2;
+input wire	d3;
+input wire	d4;
+input wire	d5;
+input wire	d6;
+input wire	d7;
+output wire	p0;
+output wire	p1;
+output wire	p2;
+output wire	p3;
+output wire	p4;
+output wire	p5;
+output wire	p6;
+output wire	p7;
+
+wire	gdfx_temp0;
+wire	SYNTHESIZED_WIRE_29;
+wire	SYNTHESIZED_WIRE_30;
+wire	SYNTHESIZED_WIRE_31;
+wire	SYNTHESIZED_WIRE_32;
+wire	SYNTHESIZED_WIRE_33;
+wire	SYNTHESIZED_WIRE_34;
+wire	SYNTHESIZED_WIRE_6;
+wire	SYNTHESIZED_WIRE_23;
+
+assign	p7 = d7;
+
+
+
+assign	SYNTHESIZED_WIRE_6 = SYNTHESIZED_WIRE_29 & SYNTHESIZED_WIRE_30 & SYNTHESIZED_WIRE_31 & SYNTHESIZED_WIRE_32 & SYNTHESIZED_WIRE_33 & SYNTHESIZED_WIRE_34;
+
+assign	p1 = d1 & SYNTHESIZED_WIRE_6;
+
+assign	p2 = SYNTHESIZED_WIRE_29 & d2 & SYNTHESIZED_WIRE_31 & SYNTHESIZED_WIRE_32 & SYNTHESIZED_WIRE_33 & SYNTHESIZED_WIRE_34;
+
+assign	p3 = SYNTHESIZED_WIRE_29 & gdfx_temp0 & gdfx_temp0 & SYNTHESIZED_WIRE_32 & SYNTHESIZED_WIRE_33 & SYNTHESIZED_WIRE_34;
+
+assign	p4 = gdfx_temp0 & SYNTHESIZED_WIRE_32 & SYNTHESIZED_WIRE_33 & SYNTHESIZED_WIRE_34;
+
+assign	p5 = d5 & d5 & SYNTHESIZED_WIRE_33 & SYNTHESIZED_WIRE_34;
+
+assign	p6 = d6 & SYNTHESIZED_WIRE_34;
+
+assign	SYNTHESIZED_WIRE_23 =  ~d1;
+
+assign	SYNTHESIZED_WIRE_30 =  ~d2;
+
+assign	SYNTHESIZED_WIRE_31 =  ~gdfx_temp0;
+
+assign	SYNTHESIZED_WIRE_29 =  ~gdfx_temp0;
+
+assign	SYNTHESIZED_WIRE_32 =  ~d5;
+
+assign	SYNTHESIZED_WIRE_33 =  ~d6;
+
+assign	SYNTHESIZED_WIRE_34 =  ~d7;
+
+assign	p0 = d0 & SYNTHESIZED_WIRE_30 & SYNTHESIZED_WIRE_23 & SYNTHESIZED_WIRE_31 & SYNTHESIZED_WIRE_33 & SYNTHESIZED_WIRE_32 & SYNTHESIZED_WIRE_34 & SYNTHESIZED_WIRE_29;
+
+assign	gdfx_temp0 = d3;
+assign	gdfx_temp0 = d4;
+
+endmodule

@@ -1,142 +1,34 @@
 //6-to-64 binary decoder
 module h6to64(En,w,y);
-input En;
-input[5:0]w;
-input[63:0]y;
-wire[7:0]En_w;
+	input En;       //The enable input
+	input[5:0]w;    //6 input w
+	output[63:0]y;  //64 output y
+	wire[7:0]En_w;  //8 input En_w input for the 8 instances of h3to8 Enable input
+	
+	
+	/* The parent block instance of h3to8 module,the Enable 
+	input will be the Enable input of the entire design.
+		The 3-inputs "w" ports will be its w[5:3] (most significant bits) 
+		input and acts as decoder for the En_w wires.
+		The outputs will be the En_w wires that are connected to each 
+		Enable input of the 8 child blocks instance of h3to8 module	
+	*/
+	h3to8 parent_block(.En(En),.w(w[5:3]),.y(En_w[7:0]));
 
-h3to8 parent_block(
-.En(En),
-.w2(w[5]),
-.w1(w[4]),
-.w0(w[3]),
-.y7(En_w[7]),
-.y6(En_w[6]),
-.y5(En_w[5]),
-.y4(En_w[4]),
-.y3(En_w[3]),
-.y2(En_w[2]),
-.y1(En_w[1]),
-.y0(En_w[0])
-);
-
-h3to8 block0(
-.En(En_w[0]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[7]),
-.y6(y[6]),
-.y5(y[5]),
-.y4(y[4]),
-.y3(y[3]),
-.y2(y[2]),
-.y1(y[1]),
-.y0(y[0])
-);
-
-h3to8 block1(
-.En(En_w[1]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[15]),
-.y6(y[14]),
-.y5(y[13]),
-.y4(y[12]),
-.y3(y[11]),
-.y2(y[10]),
-.y1(y[9]),
-.y0(y[8])
-);
-
-h3to8 block2(
-.En(En_w[2]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[23]),
-.y6(y[22]),
-.y5(y[21]),
-.y4(y[20]),
-.y3(y[19]),
-.y2(y[18]),
-.y1(y[17]),
-.y0(y[16])
-);
-
-h3to8 block3(
-.En(En_w[3]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[31]),
-.y6(y[30]),
-.y5(y[29]),
-.y4(y[28]),
-.y3(y[27]),
-.y2(y[26]),
-.y1(y[25]),
-.y0(y[24])
-);
-
-h3to8 block4(
-.En(En_w[4]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[39]),
-.y6(y[38]),
-.y5(y[37]),
-.y4(y[36]),
-.y3(y[35]),
-.y2(y[34]),
-.y1(y[33]),
-.y0(y[32])
-);
-
-h3to8 block5(
-.En(En_w[5]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[47]),
-.y6(y[46]),
-.y5(y[45]),
-.y4(y[44]),
-.y3(y[43]),
-.y2(y[42]),
-.y1(y[41]),
-.y0(y[40])
-);
-
-h3to8 block6(
-.En(En_w[6]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[55]),
-.y6(y[54]),
-.y5(y[53]),
-.y4(y[52]),
-.y3(y[51]),
-.y2(y[50]),
-.y1(y[49]),
-.y0(y[48])
-);
-
-h3to8 block7(
-.En(En_w[7]),
-.w2(w[2]),
-.w1(w[1]),
-.w0(w[0]),
-.y7(y[63]),
-.y6(y[62]),
-.y5(y[61]),
-.y4(y[60]),
-.y3(y[59]),
-.y2(y[58]),
-.y1(y[57]),
-.y0(y[56])
-);
+	/*	The 8-child block instance of h3to8 module,the Enable input are connected 
+	to the En_w wires from 0 to 7.The 3-inputs "w" are connected to w[2:0] 
+	(least significant bits) and acts as decoder for the nblock output.
+		The output will be grouped every 8 bits as block0 for outputs 0 to 7,
+		block1 for outputs 15 to 8 and so on...
+   */	
+	h3to8 block0(.En(En_w[0]),.w(w[2:0]),.y(y[7:0]));
+	h3to8 block1(.En(En_w[1]),.w(w[2:0]),.y(y[15:8]));
+	h3to8 block2(.En(En_w[2]),.w(w[2:0]),.y(y[23:16]));
+	h3to8 block3(.En(En_w[3]),.w(w[2:0]),.y(y[31:24]));
+	h3to8 block4(.En(En_w[4]),.w(w[2:0]),.y(y[39:32]));
+	h3to8 block5(.En(En_w[5]),.w(w[2:0]),.y(y[47:40]));
+	h3to8 block6(.En(En_w[6]),.w(w[2:0]),.y(y[55:48]));
+	h3to8 block7(.En(En_w[7]),.w(w[2:0]),.y(y[63:56]));
 endmodule
+
+

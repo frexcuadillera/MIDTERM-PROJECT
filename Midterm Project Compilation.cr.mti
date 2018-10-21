@@ -1,16 +1,37 @@
-{C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v}
+{C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_gatelevel_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_gatelevel_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module priority_encoder83_gatelevel_tb
+
+Top level modules:
+	priority_encoder83_gatelevel_tb
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/dec2to4_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/dec2to4_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dec2to4_tb
+
+Top level modules:
+	dec2to4_tb
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux4to1.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux4to1.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder42.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module binary_encoder42
 
 Top level modules:
 	binary_encoder42
 
-} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_casex_tb.v} {1 {vlog -work work {C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\priority_encoder83_casex_tb.v}
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_forloop.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_forloop.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module priority_encoder83_casex_tb
+-- Compiling module priority_encoder83_forloop
 
 Top level modules:
-	priority_encoder83_casex_tb
+	priority_encoder83_forloop
 
 } {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83_tb.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -19,6 +40,20 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	binary_encoder83_tb
 
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_casex_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_casex_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module priority_encoder83_casex_tb
+
+Top level modules:
+	priority_encoder83_casex_tb
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/dec2to4.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/dec2to4.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dec2to4
+
+Top level modules:
+	dec2to4
+
 } {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module h3to8
@@ -26,12 +61,26 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	h3to8
 
-} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83.v} {1 {vlog -work work {C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\binary_encoder83.v}
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_casex.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_casex.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module priority_encoder83_casex
+
+Top level modules:
+	priority_encoder83_casex
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary_encoder83.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module binary_encoder83
 
 Top level modules:
 	binary_encoder83
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary encoder42_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/binary encoder42_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module binary_encoder42_tb
+
+Top level modules:
+	binary_encoder42_tb
 
 } {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64_tb.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -47,12 +96,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	if2to4
 
-} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64.v} {1 {vlog -work work {C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\h6to64.v}
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case.v} {1 {vlog -work work {C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\mux41_case.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module h6to64
+-- Compiling module mux41_case
 
 Top level modules:
-	h6to64
+	mux41_case
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_ecoder83_forloop_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_ecoder83_forloop_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module priority_encoder83_forloop_tb
+
+Top level modules:
+	priority_encoder83_forloop_tb
 
 } {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h3to8_tb.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -61,12 +117,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	h3to8_tb
 
-} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v}
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/h6to64.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module problem4_18
+-- Compiling module h6to64
 
 Top level modules:
-	problem4_18
+	h6to64
+
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_gatelevel.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/priority_encoder83_gatelevel.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module priority_encoder_83_gatelevel
+
+Top level modules:
+	priority_encoder_83_gatelevel
 
 } {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/if2to4_tb.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -75,14 +138,14 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	if2to4_tb
 
-} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/4-1 Multiplexer/mux41_case.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/4-1 Multiplexer/mux41_case.v}
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/problem4_18.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module mux41_case
+-- Compiling module problem4_18
 
 Top level modules:
-	mux41_case
+	problem4_18
 
-} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case_tb.v} {1 {vlog -work work {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case_tb.v}
+} {} {}} {C:/++++++/Academics (do not delete)/4th Year/Advanced Logic Circuit/MIDTERM PROJECT/mux41_case_tb.v} {1 {vlog -work work {C:\++++++\Academics (do not delete)\4th Year\Advanced Logic Circuit\MIDTERM PROJECT\mux41_case_tb.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module mux41_case_tb
 

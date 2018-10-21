@@ -1,31 +1,32 @@
+`timescale 1ps/1ps //timescale of 1 picosecond with 1 picosecond precision
 module binary_encoder83_tb();
-reg En,d7,d6,d5,d4,d3,d2,d1,d0;
-wire q2,q1,q0;
-reg [8:0] k;
+	reg En;      //Enable input as register
+	reg [7:0] d; //8-bit input vector d as register
+	wire [2:0] q;//3-bit output vector q as wire 
 
-initial begin
-k = 0;
-#512 $stop;
-end
-
-always begin
-{En,d7,d6,d5,d4,d3,d2,d1,d0} = k;
-#1 k = k + 1;
-end
-
-binary_encoder83 MUT(
-.En(En),
-.d7(d7),
-.d6(d6),
-.d5(d5),
-.d4(d4),
-.d3(d3),
-.d2(d2),
-.d1(d1),
-.d0(d0),
-.q2(q2),
-.q1(q1),
-.q0(q0)
-);
-
+	//initial block
+	initial begin
+		En = 1;
+		d = 0;
+		//initialize En = 1, d = 0
+		// set every legal d inputs every 1ps
+		#1 d = 8'b00000001;
+		#1 d = 8'b00000010;
+		#1 d = 8'b00000100;
+		#1 d = 8'b00001000;
+		#1 d = 8'b00010000;
+		#1 d = 8'b00100000;
+		#1 d = 8'b01000000;
+		#1 d = 8'b10000000;
+		#1 $stop;
+	end
+	
+	//instantiate the module
+	binary_encoder83 MUT(
+		.En(En),
+		.d(d),
+		.q(q)
+	);
+	
 endmodule
+
